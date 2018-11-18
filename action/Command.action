@@ -1,6 +1,6 @@
 # Goal
 string command 				# Command type to be executed
-string command_metadata 	# Optional string arguments (separated by |) required for the command execution (this goal was made for simple and generic commands. For more complex data structures create your own custom actions for proper semantic interpretation of its arguments)
+string[] command_metadata 	# Optional string arguments required for the command execution (this goal was made for simple and generic commands. For more complex data structures create your own custom actions for proper semantic interpretation of its arguments)
 ---
 # Result
 string result 				# Optional result message besides the ones provided in actionlib_msgs/GoalStatus ([Succeeded, Preempted, Aborted, Rejected, Recalled])
